@@ -1,0 +1,14 @@
+{
+  "name": "Appointment-API",
+  "version": "1.0.0",
+  "description": "Doctor Appointment application functionalities with MongoDB integration",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.1"
+  }
+}
