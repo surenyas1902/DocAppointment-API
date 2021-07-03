@@ -4,11 +4,17 @@
   "description": "Doctor Appointment application functionalities with MongoDB integration",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon ."
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "mongodb": "^3.6.9",
     "mongoose": "^5.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
   }
 }
