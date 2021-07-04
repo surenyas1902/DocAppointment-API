@@ -12,9 +12,11 @@
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "mongodb": "^3.6.9",
-    "mongoose": "^5.13.1"
+    "mongoose": "^5.13.1",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
+    "dotenv": "^10.0.0",
     "nodemon": "^2.0.9"
   }
 }
