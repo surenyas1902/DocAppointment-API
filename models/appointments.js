@@ -16,12 +16,16 @@ const AppointmentSchema = new mongoose.Schema({
         minlength: 10,
         maxlength: 10
     },
-    appointmentStartTime: {
+    appointmentDate: {
         type: Date,
         required: true
     },
+    appointmentStartTime: {
+        type: Number,
+        required: true
+    },
     appointmentEndTime: {
-        type: Date,
+        type: Number,
         required: true
     }
 });
